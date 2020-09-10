@@ -11,9 +11,9 @@ if (a == 10 ||  b == 10 || a+b == 10 ) {
 
 int x = 10;
 int y = 20;
-int z = 30; 
+int z = 30;
 if (x+y+z == 30 && (x|y|z) != (10|20|30)) {
-  println("6B:SUCCES"); 
+  println("6B:SUCCES");
 }else{
-  println("6B:FAILURE"); 
+  println("6B:FAILURE");
 }
