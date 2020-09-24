@@ -14,14 +14,14 @@ boolean[]arrayOfBoolean = new boolean [3];
 
 void setup(){
 
-  arrayOfString[0] = "Bedste";
-  arrayOfString[1] = "ik bedste";
-  arrayOfString[2] = "måske bedste"; 
-  printBedsteOgIkBedste(arrayOfString);
+  arrayOfString[0] = "Sjov";
+  arrayOfString[1] = "Ikke sjov";
+  arrayOfString[2] = "Måske sjov"; 
+  printStringArray(arrayOfString);
   
-  arrayOfInt[0] = 2;
-  arrayOfInt[1] = 3;
-  arrayOfInt[2] = 4;
+  arrayOfInt[0] = 4;
+  arrayOfInt[1] = 10;
+  arrayOfInt[2] = 5;
   println(returnSum(arrayOfInt));
   
 
@@ -32,7 +32,7 @@ void setup(){
   arrayOfString[1] = "ik bedste";
   printBedsteOgIkBedste(arrayOfString);*/
   
-void printBedsteOgIkBedste (String[]value){
+void printStringArray (String[]values){
   for(int i = 0; i<1; i++){
     println(value[i]);
   }
@@ -41,7 +41,7 @@ void printBedsteOgIkBedste (String[]value){
 }
 int returnSum(int[]numb){
   int sum = 0;
-  for (int i = 0; i<3; i++){
+  for (int i = 0; i<values.length; i++){
     sum += numb[i];
   }
   return sum;
